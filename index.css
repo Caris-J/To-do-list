@@ -1,0 +1,97 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e4a71;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #1e4a71;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #d90000;
+    color: white;
+    font-size: 35px;
+
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.note {
+    background-color: #ffebcd;
+    border: 1px solid #deb887;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    outline: none;
+}
+
+.note-buttons {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+textarea {
+    width: calc(100% - 20px);
+    height: 35px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    background-color: #ffebcd;
+    outline: none;
+    border: none;
+    font-size: 15px;
+
+    
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.delete-task {
+    margin-left: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.add-task {
+    background-color: #2196F3;
+}
